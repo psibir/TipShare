@@ -16,6 +16,8 @@ In the service industry, distributing cash tips to employees can be a time-consu
 
 ## How to Use
 
+![tipshare interface](/tipshare.png)
+
 1. **Enter Hours Worked**: In the blue cells of the spreadsheet, enter the hours worked by each employee from the Timeclock. Enter the respective values in the `Hours Worked` column.
 
 2. **Enter Total Cash Tips**: In the blue cells, enter the total cash tips collected from the Tip Jar.
