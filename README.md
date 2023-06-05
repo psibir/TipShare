@@ -18,11 +18,11 @@ In the service industry, distributing cash tips to employees can be a time-consu
 
 ![tipshare interface](/tipshare.png)
 
-1. **Enter Hours Worked**: In the blue cells of the spreadsheet, enter the hours worked by each employee from the Timeclock. Enter the respective values in the `Hours Worked` column.
+1. **Enter Hours Worked**: Enter the hours worked by each employee from the Timeclock. Enter the respective values in the `Hours Worked` column.
 
-2. **Enter Total Cash Tips**: In the blue cells, enter the total cash tips collected from the Tip Jar.
+2. **Enter Total Cash Tips**: Enter the total cash tips collected in the single blue cell in the `Cash Tips` column.
 
-3. **Distribute Cash Tips**: The amounts shown in the green `Cash Tips` column will be automatically calculated and allocated to each employee.
+3. **Distribute Cash Tips**: The amounts shown in the series of green cells of the `Cash Tips` column will be automatically calculated and allocated to each employee.
 
 Please note the following:
 
@@ -44,7 +44,7 @@ The TipShare Excel spreadsheet utilizes the SUM function and cell referencing to
 
 The Tipshare formula is applied to the `Cash Tips` column (C2:C9). Each employee's `Total Hours Worked` for that week (B2:B9) is divided by the `Team Total Hours` (B11). The intermediate result is multiplied by the `Total Cash Tips` for the week (C11). Each employee's `Cash Tips` are displayed in the `Cash Tips` column (C2:C9).
 
-The `TipShare.xlsx` file has Worksheet Protection applied to the `Team Total Hours` and `Cash Tips` cells to prevent breaking or overwriting the formulas. Worksheet Protection can be overridden at any time using the password: `password`.
+The `TipShare.xlsx` file has Worksheet Protection applied to the `Team Total Hours` and `Cash Tips` cells to prevent accidental breaking or overwriting the formulas. Worksheet Protection can be overridden or disabled at any time using the password: `password`. 
 
 ## Adding More Employee Names to TipShare
 
